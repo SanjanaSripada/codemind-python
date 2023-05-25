@@ -1,5 +1,5 @@
-n = int(input())
-a = list(map(int,input().split()))
+n=int(input())
+a=list(map(int,input().split()))
 b=[]
 c=[]
 d=[]
@@ -13,7 +13,7 @@ for i in range(0,len(b)):
         d.append(b[i])
 i=0
 j=0
-while(i<len(c)) or (j<len(d)):
+while(i<len(c)or(j<len(d))):
     if i<len(d):
         print(d[i],end=' ')
     if j<len(c):
