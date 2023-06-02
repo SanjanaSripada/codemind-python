@@ -1,6 +1,6 @@
-n = int(input())
-odd = 0
-a = list(map(int,input().strip().split()))
+n=int(input())
+odd=0
+a=list(map(int,input().split()))
 for i in range(n):
     if(a[i]%2!=0):
         odd+=1
