@@ -1,4 +1,4 @@
-def identicals(l,s,n):
+def identical(l,s,n):
     for i in range(n,0,-1):
         if(s%i==0):
             return i
@@ -7,4 +7,4 @@ def identicals(l,s,n):
 n=int(input())
 l=list(map(int,input().split()))
 s=sum(l)
-print(identicals(l,s,n))
+print(identical(l,s,n))
