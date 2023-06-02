@@ -1,4 +1,4 @@
-a = int(input())
+a=int(input())
 while(a):
     b=int(input())
     s=list(map(int,input().split()))
